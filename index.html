@@ -493,30 +493,8 @@
   <!-- Portfolio Modals-->
   <!--Likelion modal-->
   <div class="portfolio-modal modal fade" id="portfolio-likelion" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-        </div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="modal-body">
-                <!-- Project Details Go Here-->
-                <h2 class="text-uppercase">likelion</h2>
-                <p class="item-intro text-muted">코드라이언 교육 코스 30% 할인</p>
-                <p class="text-break" style="text-align: left;">이용 방법 : id@student.innovationacademy.kr 로 가입 시 30% 혜택 적용
-                </p>
-              </div>
-            </div>
-            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/codelion.png" alt="" />
-            <div class="col-lg-8">
-              <div class="modal-body">
-            <button class="btn btn-primary" data-dismiss="modal" type="button"><i
-                class="fas fa-undo mr-1"></i>return</button></div></div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <a href="#" id="trigger">클릭하면 로드</a>
+  <div id="test"></div>
   </div>
   <!--goorm modal-->
   <div class="portfolio-modal modal fade" id="portfolio-goorm" tabindex="-1" role="dialog" aria-hidden="true">
@@ -1000,6 +978,18 @@
   <script src="assets/mail/contact_me.js"></script>
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
+
+  <script scr="jquery.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#portfolio-likelion').click(function(){
+        $('#test').load('likelion.html');
+        return false;
+      });
+    });
+  </script>
+  
 </body>
 
 </html>
