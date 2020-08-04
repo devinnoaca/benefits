@@ -106,7 +106,7 @@
       <div class="row">
         <div class="col-lg-4 col-sm-6 mb-5">
           <div class="partner-item">
-            <a class="partner-link" data-toggle="modal" href="#portfolio-likelion">
+            <a class="partner-link" data-toggle="modal" id="likelion" href="#portfolio-likelion">
               <div class="partner-hover">
                 <div class="partner-hover-content"><i class="fas fa-plus fa-2x"></i></div>
               </div>
@@ -492,10 +492,19 @@
 
   <!-- Portfolio Modals-->
   <!--Likelion modal-->
+  
   <div class="portfolio-modal modal fade" id="portfolio-likelion" tabindex="-1" role="dialog" aria-hidden="true">
-  <a href="#" id="trigger">클릭하면 로드</a>
-  <div id="test"></div>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+  
+        <div id="test"></div>
+ 
+        </div>
+    </div>
   </div>
+  
+  
   <!--goorm modal-->
   <div class="portfolio-modal modal fade" id="portfolio-goorm" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -983,9 +992,8 @@
 
   <script>
     $(document).ready(function(){
-      $('#portfolio-likelion').click(function(){
+      $('#likelion').click(function(){
         $('#test').load('likelion.html');
-        return false;
       });
     });
   </script>
