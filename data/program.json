@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Edu Content",
+    "text": "42 서울인들의 교육 역량 강화에 도움이 될 콘텐츠들이 준비되어 있습니다.",
+    "icon": "book-reader"
+  },
+  {
+    "title": "Communication",
+    "text": "42 서울인들의 원활한 협업 및 커뮤니케이션을 도울 수 있는 콘텐츠들이 준비되어 있습니다.",
+    "icon": "comments"
+  },
+  {
+    "title": "Software",
+    "text": "42 서울인들이 경험해보면 좋을 소프트웨어 콘텐츠들이 준비되어 있습니다.",
+    "icon": "laptop-code"
+  },
+  {
+    "title": "Expertise",
+    "text": "42 서울인들의 전문지식 습득 및 취창업에 도움이 될 콘텐츠들이 준비되어 있습니다.",
+    "icon": "id-badge"
+  },
+  {
+    "title": "Life style",
+    "text": "42 서울인들이 더 나은 라이프스타일을 영위할 수 있는 콘텐츠들이 준비되어 있습니다.",
+    "icon": "smile-wink"
+  },
+  {
+    "title": "F&B",
+    "text": "42 서울인들이 즐길 수 있는 먹거리 콘텐츠들이 준비되어 있습니다.",
+    "icon": "utensils"
+  }
+]
