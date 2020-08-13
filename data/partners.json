@@ -6,7 +6,10 @@
     "text" : [
       "이용 방법: id@student.innovationacademy.kr 로 가입 시 30% 혜택 적용"
     ],
-    "button" : []
+    "button" : [
+      { "name" : "멋쟁이 사자처럼 바로가기", "link" : "https://likelion.net" },
+      { "name" : "코드라이언 바로가기", "link" : "https://www.codelion.net" }
+    ]
   },
   {
     "id" : "goorm",
@@ -17,25 +20,13 @@
       "",
       "[혜택 01] 42 SEOUL 교육생 전용 채널 내 프로그래밍 강좌 무료!",
       "[혜택 02] 구름EDU의 모든 강좌 30% 할인!",
-      "[혜택 03,04] 클라우드 통합 개발환경으로 별도 설치 없이 온라인 환경에서 개발이 가능한 IDE 제공!"
+      "[혜택 03, 04] 클라우드 통합 개발환경으로 별도 설치 없이 온라인 환경에서 개발이 가능한 IDE 제공!"
     ],
     "button" : [
-      {
-        "name" : "구름EDU",
-        "link" : "https://edu.goorm.io/"
-      },
-      {
-        "name" : "구름IDE",
-        "link" : "https://ide.goorm.io/"
-      },
-      {
-        "name" : "구름IDE가 궁금하다면?",
-        "link" : "https://goor.me/QSZcy"
-      },
-      {
-        "name" : "42 SEOUL 교육생 전용 채널",
-        "link" : "https://42seoul.goorm.io/"
-      }
+      { "name" : "구름EDU", "link" : "https://edu.goorm.io/" },
+      { "name" : "구름IDE", "link" : "https://ide.goorm.io/" },
+      { "name" : "구름IDE가 궁금하다면?", "link" : "https://goor.me/QSZcy" },
+      { "name" : "42 SEOUL 교육생 전용 채널", "link" : "https://42seoul.goorm.io/" }
     ]
   },
   {
@@ -48,13 +39,13 @@
       "",
       "[혜택02]",
       "기술지원 제공 : 현재는 Ainetwork 개발자 슬랙 워크스페이스를 통해 가능",
-      "(향후 오프라인 오피스아워 제공 및 42 SEOUL 교육생 전용 프라이빗 채널 제공 예정)",
-      "",
-      "•홈페이지 : www.comcom.ai",
-      "•AI Network : www.ainetwork.ai",
-      "•Ainize® : www.ainize.ai"
+      "(향후 오프라인 오피스아워 제공 및 42 SEOUL 교육생 전용 프라이빗 채널 제공 예정)"
     ],
-    "button" : []
+    "button" : [
+      { "name" : "커먼컴퓨터", "link" : "https://www.comcom.ai" },
+      { "name" : "AI Network", "link" : "https://www.ainetwork.ai" },
+      { "name" : "Ainize®", "link" : "https://www.ainize.ai" }
+    ]
   },
   {
     "id" : "saltlux",
@@ -68,7 +59,11 @@
       "#02. 데이터 사이언스 분석 중심 과정(Non-technical) 바로가기",
       "#03. 비즈니스를 위한 AI와 머신러닝 과정 바로가기"
     ],
-    "button" : []
+    "button" : [
+      { "name" : "데이터 사이언스 파이썬 프로그래밍 과정(Technical) 바로가기", "link" : "https://academy.saltlux.com/fundamentalsData.php" },
+      { "name" : "데이터 사이언스 분석 중심 과정(Non-technical) 바로가기", "link" : "https://academy.saltlux.com/fundamentalsDataNonTech.php" },
+      { "name" : "비즈니스를 위한 AI와 머신러닝 과정 바로가기", "link" : "https://academy.saltlux.com/ai.php" }
+    ]
   },
   {
     "id" : "megazone",
@@ -86,10 +81,11 @@
     "title" : "러닝스푼즈",
     "abstract" : "온오프라인 클래스 30% 할인권 제공",
     "text" : [
-      "데이터 사이언스/파이낸스/부동산/비즈니스 직무교육 프리미엄 콘텐츠!",
-      "https://learningspoons.com/"
+      "데이터 사이언스/파이낸스/부동산/비즈니스 직무교육 프리미엄 콘텐츠!"
     ],
-    "button" : []
+    "button" : [
+      { "name" : "러닝스푼즈 홈페이지 바로가기", "link" : "https://learningspoons.com/" }
+    ]
   },
   {
     "id" : "collabee",
@@ -101,22 +97,23 @@
       "사용 요건: 팀을 생성하고 초대된 인원수 기준으로 크레딧 제공!",
       "01. 가입 후 관리자가 팀을 생성하여 참여자를 초대",
       "02. 크레딧 활용을 위해서는 신용카드를 등록 후 유료 상품 선택",
-      "03. 6개월 이후에는 해당 신용카드에서 사용한 만큼 비용이 결제되므로 유의 요망",
-      "스마트워크의 시작, '콜라비' 소개 : https://tv.naver.com/v/13186886",
-      "",
-      "www.collabee.co"
+      "03. 6개월 이후에는 해당 신용카드에서 사용한 만큼 비용이 결제되므로 유의 요망"
     ],
-    "button" : []
+    "button" : [
+      { "name" : "스마트워크의 시작, '콜라비' 소개", "link" : "https://tv.naver.com/v/13186886" },
+      { "name" : "콜라비 홈페이지 바로가기", "link" : "https://www.collabee.co" }
+    ]
   },
   {
     "id" : "codeit",
     "title" : "코드잇",
     "abstract" : "무제한 멤버십 수강권 15% 할인",
     "text" : [
-      "이용 방법: 42 SEOUL 교육생 전용 쿠폰 번호 입력 (번호 미정)",
-      "www.codeit.kr"
+      "이용 방법: 42 SEOUL 교육생 전용 쿠폰 번호 입력 (번호 미정)"
     ],
-    "button" : []
+    "button" : [
+      { "name" : "코드잇 홈페이지 바로가기", "link" : "https://www.codeit.kr" }
+    ]
   },
   {
     "id" : "veat",
@@ -134,10 +131,11 @@
     "text" : [
       "42 SEOUL만의 특별한 구매혜택 2가지",
       "- PC 18% 할인 : 전용 할인 혜택으로 전제품 최대 18% 할인 받으세요!",
-      "- 기사님 현장방문 : 수리기사님이 직접 방문하는 3년 방문 보증 5만원!",
-      "https://www.lenovo.com/kr/ko/education-store"
+      "- 기사님 현장방문 : 수리기사님이 직접 방문하는 3년 방문 보증 5만원!"
     ],
-    "button" : []
+    "button" : [
+      { "name" : "레노버 교육 할인 스토어 바로가기", "link" : "https://www.lenovo.com/kr/ko/education-store" }
+    ]
   },
   {
     "id" : "jandi",
@@ -149,13 +147,13 @@
       "이용 방법:",
       "1. 잔디 팀에 42 SEOUL 교육생 인증 후, 프로모션 코드를 받기",
       "(인증방법 : 재학증명서를 잔디 관리자 support@tosslab.com 또는 앱 내부 1:1 로 송부)",
-      "2. 잔디 팀 관리자가 해당 팀의 [관리자 메뉴] – [지금 업그레이드 하기] 페이지 내에서 전달받은 코드를 입력",
-      "",
-      "- 잔디를 소개합니다! <a href='https://www.jandi.com/' style='background-color:#fed136; color:black'><u>잔디 소개서</u></a><br>",
-      "- 잔디를 더 알고 싶으신가요? 잔디 블로그 (페이지 연결)",
-      "- 잔디 활용 사례: 잔디 도입 사례 잔디 활용법 (페이지 연결)"
+      "2. 잔디 팀 관리자가 해당 팀의 [관리자 메뉴] – [지금 업그레이드 하기] 페이지 내에서 전달받은 코드를 입력"
     ],
-    "button" : []
+    "button" : [
+      { "name" : "잔디 홈페이지", "link" : "https://www.jandi.com/" },
+      { "name" : "잔디 블로그", "link" : "" },
+      { "name" : "잔디 활용법", "link" : "" }
+    ]
   },
   {
     "id" : "modu",
@@ -178,9 +176,7 @@
       "2. 실물 쿠폰을 안내데스크에서 수령하여 방문",
       "",
       "유의 사항: ",
-      "부분 시술 (샴푸, 스타일링, 앞머리컷, 다운펌, 부분펌, 뿌리염색 및 리터치, 케어1회)는 해당 없음",
-      "",
-      "www.jandi.com"
+      "부분 시술 (샴푸, 스타일링, 앞머리컷, 다운펌, 부분펌, 뿌리염색 및 리터치, 케어1회)는 해당 없음"
     ],
     "button" : []
   },
@@ -191,11 +187,11 @@
     "text" : [
       "이용 방법: ",
       "1. 42 SEOUL 교육생 전용 페이지 패스워드 입력 (42kr42)",
-      "2. 이용 지점 방문 시 재학증명서를 통해 교육생 인증",
-      "",
-      "<a href='https://corp.kensington.co.kr/innoaca'>전용 페이지 바로가기</a>"
+      "2. 이용 지점 방문 시 재학증명서를 통해 교육생 인증"
     ],
-    "button" : []
+    "button" : [
+      { "name" : "42 SEOUL 교육생 전용 페이지 바로가기", "link" : "https://corp.kensington.co.kr/innoaca" }
+    ]
   },
   {
     "id" : "greencar",
@@ -239,10 +235,10 @@
       "05. 예 약 : 협력병원 고객만족센터",
       "  - 서울,경기 병원 전담센터  02-6486-3300 / 카카오톡 WSC3323",
       "  - 부산 병원 전담센터 051-710- 7855 / 카카오톡 WSC332",
-      "06. 유의사항 : 상담 및 예약 시, 반드시 이노베이션아카데미 소속임을 말씀해주셔야 우대기업 대상자로 등록됩니다.",
-      "",
-      "<a href='http://www.clplus.net/promotion/intranet/sb/innovationacademy/html/index.html'> 상세 할인혜택 바로가기 </a>"
+      "06. 유의사항 : 상담 및 예약 시, 반드시 이노베이션아카데미 소속임을 말씀해주셔야 우대기업 대상자로 등록됩니다."
     ],
-    "button" : []
+    "button" : [
+      { "name" : "상세 할인 혜택 바로가기", "link" : "http://www.clplus.net/promotion/intranet/sb/innovationacademy/html/index.html" }
+    ]
   }
 ]
