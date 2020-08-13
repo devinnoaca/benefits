@@ -155,14 +155,14 @@
     ]
   },
   {
-    "id" : "modu",
-    "title" : "모두의연구소",
-    "abstract" : "모두의연구소 멤버십 할인",
+    "id" : "inflearn",
+    "title" : "인프런",
+    "abstract" : "강의 무료 지원 / 매월 25% 할인 지원",
     "text" : [
 
     ],
     "button" : [
-      { "name" : "모두의 연구소 홈페이지", "link" : "http://modulabs.co.kr/" }
+      { "name" : "인프런 홈페이지", "link" : "http://inflearn.com/" }
     ]
   },
   {
