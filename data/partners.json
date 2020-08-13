@@ -5,7 +5,8 @@
     "abstract" : "코드라이언 교육 코스 30% 할인",
     "text" : [
       "이용 방법: id@student.innovationacademy.kr 로 가입 시 30% 혜택 적용"
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "goorm",
@@ -17,6 +18,24 @@
       "[혜택 01] 42 SEOUL 교육생 전용 채널 내 프로그래밍 강좌 무료!",
       "[혜택 02] 구름EDU의 모든 강좌 30% 할인!",
       "[혜택 03,04] 클라우드 통합 개발환경으로 별도 설치 없이 온라인 환경에서 개발이 가능한 IDE 제공!"
+    ],
+    "button" : [
+      {
+        "name" : "구름EDU",
+        "link" : "https://edu.goorm.io/"
+      },
+      {
+        "name" : "구름IDE",
+        "link" : "https://ide.goorm.io/"
+      },
+      {
+        "name" : "구름IDE가 궁금하다면?",
+        "link" : "https://goor.me/QSZcy"
+      },
+      {
+        "name" : "42 SEOUL 교육생 전용 채널",
+        "link" : "https://42seoul.goorm.io/"
+      }
     ]
   },
   {
@@ -34,7 +53,8 @@
       "•홈페이지 : www.comcom.ai",
       "•AI Network : www.ainetwork.ai",
       "•Ainize® : www.ainize.ai"
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "saltlux",
@@ -47,7 +67,8 @@
       "#01. 데이터 사이언스 파이썬 프로그래밍 과정(Technical) 바로가기",
       "#02. 데이터 사이언스 분석 중심 과정(Non-technical) 바로가기",
       "#03. 비즈니스를 위한 AI와 머신러닝 과정 바로가기"
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "megazone",
@@ -57,7 +78,8 @@
       "- 학점은행제 기반의 학습자 중심 서비스",
       "- 전문화된 학습 플래너! 1:1 학습자 관리 서비스",
       "- 누구나 부담없이 다가올 수 있는 서비스"
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "spoons",
@@ -66,7 +88,8 @@
     "text" : [
       "데이터 사이언스/파이낸스/부동산/비즈니스 직무교육 프리미엄 콘텐츠!",
       "https://learningspoons.com/"
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "collabee",
@@ -82,7 +105,8 @@
       "스마트워크의 시작, '콜라비' 소개 : https://tv.naver.com/v/13186886",
       "",
       "www.collabee.co"
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "codeit",
@@ -91,7 +115,8 @@
     "text" : [
       "이용 방법: 42 SEOUL 교육생 전용 쿠폰 번호 입력 (번호 미정)",
       "www.codeit.kr"
-    ] 
+    ],
+    "button" : []
   },
   {
     "id" : "veat",
@@ -99,7 +124,8 @@
     "abstract" : "오피스아워 제공, 계약서 키트 제공 등",
     "text" : [
 
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "lenovo",
@@ -110,7 +136,8 @@
       "- PC 18% 할인 : 전용 할인 혜택으로 전제품 최대 18% 할인 받으세요!",
       "- 기사님 현장방문 : 수리기사님이 직접 방문하는 3년 방문 보증 5만원!",
       "https://www.lenovo.com/kr/ko/education-store"
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "jandi",
@@ -127,7 +154,8 @@
       "- 잔디를 소개합니다! <a href='https://www.jandi.com/' style='background-color:#fed136; color:black'><u>잔디 소개서</u></a><br>",
       "- 잔디를 더 알고 싶으신가요? 잔디 블로그 (페이지 연결)",
       "- 잔디 활용 사례: 잔디 도입 사례 잔디 활용법 (페이지 연결)"
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "modu",
@@ -135,7 +163,8 @@
     "abstract" : "모두의연구소 멤버십 할인",
     "text" : [
 
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "junohair",
@@ -152,7 +181,8 @@
       "부분 시술 (샴푸, 스타일링, 앞머리컷, 다운펌, 부분펌, 뿌리염색 및 리터치, 케어1회)는 해당 없음",
       "",
       "www.jandi.com"
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "kensington",
@@ -164,7 +194,8 @@
       "2. 이용 지점 방문 시 재학증명서를 통해 교육생 인증",
       "",
       "<a href='https://corp.kensington.co.kr/innoaca'>전용 페이지 바로가기</a>"
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "greencar",
@@ -172,7 +203,8 @@
     "abstract" : "카셰어링 10% 할인 이용 혜택",
     "text" : [
 
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "pump",
@@ -180,7 +212,8 @@
     "abstract" : "킥보드 씽씽 이용권 할인",
     "text" : [
 
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "goto",
@@ -188,7 +221,8 @@
     "abstract" : "피트니스&골프 멤버십 할인 제공",
     "text" : [
 
-    ]
+    ],
+    "button" : []
   },
   {
     "id" : "medical",
@@ -208,6 +242,7 @@
       "06. 유의사항 : 상담 및 예약 시, 반드시 이노베이션아카데미 소속임을 말씀해주셔야 우대기업 대상자로 등록됩니다.",
       "",
       "<a href='http://www.clplus.net/promotion/intranet/sb/innovationacademy/html/index.html'> 상세 할인혜택 바로가기 </a>"
-    ]
+    ],
+    "button" : []
   }
 ]
