@@ -23,8 +23,8 @@
       "[혜택 03, 04] 클라우드 통합 개발환경으로 별도 설치 없이 온라인 환경에서 개발이 가능한 IDE 제공!"
     ],
     "button" : [
-      { "name" : "구름EDU", "link" : "https://edu.goorm.io/" },
-      { "name" : "구름IDE", "link" : "https://ide.goorm.io/" },
+      { "name" : "구름EDU 바로가기", "link" : "https://edu.goorm.io/" },
+      { "name" : "구름IDE 바로가기", "link" : "https://ide.goorm.io/" },
       { "name" : "구름IDE가 궁금하다면?", "link" : "https://goor.me/QSZcy" },
       { "name" : "42 SEOUL 교육생 전용 채널", "link" : "https://42seoul.goorm.io/" }
     ]
