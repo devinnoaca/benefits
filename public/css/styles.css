@@ -169,11 +169,11 @@ a:hover {
 }
 
 a:not([href]) {
-  color: #e6b301;
+  color: #fed136;
   text-decoration: none;
 }
 a:not([href]):hover {
-  color: #e6b301;
+  color: #fed136;
   text-decoration: none;
 }
 
