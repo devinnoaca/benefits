@@ -93,6 +93,22 @@
   },
   {
     "ready" : true,
+    "id" : "fastcampus",
+    "title" : "패스트캠퍼스",
+    "abstract" : "모든 직무 분야 온라인 콘텐츠 구독 서비스 할인",
+    "text" : [
+      "패스트캠퍼스 온라인의 모든 직무 분야의 모든 콘텐츠를 구독할 수 있습니다!",
+      "6개 카테고리 3,000개 이상의 온라인 콘텐츠 무제한 수강 혜택을 누려보세요!",
+      "42 SEOUL 교육생은 50% 할인된 금액(6개월 기준 24만원)에 올플랜 서비스 구독 혜택을 누릴 수 있습니다!"
+    ],
+    "button" : [
+	  { "name" : "패스트캠퍼스 홈페이지", "link" : "http://www.fastcampus.co.kr" },
+      { "name" : "패스트캠퍼스 서비스 사전 신청 (준비중)", "link" : "http://www.google.co.kr" },
+      { "name" : "패스트캠퍼스 온라인 교육 과정 한눈에 보기.xlsx (준비중)", "link" : "http://www.google.co.kr" }
+    ]
+  },
+  {
+    "ready" : true,
     "id" : "collabee",
     "title" : "콜라비",
     "abstract" : "올인원 협업툴 콜라비 6개월 크레딧 제공",
@@ -317,21 +333,6 @@
     "button" : [
       { "name" : "CU Post 홈페이지", "link" : "https://www.cupost.co.kr/" },
       { "name" : "무인택배 사용 매뉴얼", "link" : "https://" }
-    ]
-  },
-  {
-    "ready" : false,
-    "id" : "fastcampus",
-    "title" : "패스트캠퍼스",
-    "abstract" : "준비 중",
-    "abstract-" : "모든 직무 분야 온라인 콘텐츠 구독 서비스 할인",
-    "text" : [
-      "패스트캠퍼스 온라인의 모든 직무 분야의 모든 콘텐츠를 구독할 수 있습니다!",
-      "6개 카테고리 3,000개 이상의 온라인 콘텐츠 무제한 수강 혜택을 누려보세요!",
-      "42 SEOUL 교육생은 50% 할인된 금액(6개월 기준 24만원)에 올플랜 서비스 구독 혜택을 누릴 수 있습니다!"
-    ],
-    "button" : [
-      { "name" : "패스트캠퍼스 홈페이지", "link" : "http://www.fastcampus.co.kr" }
     ]
   },
   {
