@@ -67,6 +67,20 @@
   },
   {
     "ready" : true,
+    "id" : "inflearn",
+    "title" : "인프런",
+    "abstract" : "강의 무료 지원 / 매월 25% 할인 지원",
+    "text" : [
+      "성장기회의 평등을 추구하는 인프런에서 검증된 입문 강의들부터 실무 강의까지 만나보세요!",
+	  "회원가입 후 별도의 구글폼을 통해 사전신청을 해주시면 워킹데이 기준 2~3일 내로 등록이 완료됩니다!"
+    ],
+    "button" : [
+      { "name" : "인프런 홈페이지", "link" : "http://inflearn.com/" },
+	  { "name" : "인프런 강의 신청하러 가기", "link" : "https://docs.google.com/spreadsheets/d/1TbzSeKOZNkMR26VyoNN_ohUeeAqgTDBAx34BAczy3PQ/edit?ts=5f44dbec#gid=447543836" }
+    ]
+  },
+  {
+    "ready" : true,
     "id" : "megazone",
     "title" : "메가존아이티평생교육원",
     "abstract" : "학점은행제 서비스 50% 할인",
@@ -306,19 +320,6 @@
     "button" : [
       { "name" : "[피트니스]42 SEOUL 전용 페이지 바로가기", "link" : "https://smartstore.naver.com/gotofitness_special/products/5033316032/" },
       { "name" : "[골프]42 SEOUL 전용 페이지 바로가기", "link" : "https://smartstore.naver.com/gotofitness_special/products/5033085976/" }
-    ]
-  },
-  {
-    "ready" : false,
-    "id" : "inflearn",
-    "title" : "인프런",
-    "abstract" : "준비 중",
-    "abstract-" : "강의 무료 지원 / 매월 25% 할인 지원",
-    "text" : [
-
-    ],
-    "button" : [
-      { "name" : "인프런 홈페이지", "link" : "http://inflearn.com/" }
     ]
   },
   {
