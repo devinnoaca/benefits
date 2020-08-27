@@ -1,4 +1,4 @@
-module.exports = function (navigation, masthead, program_info, partner_info, modal, privacy_policy) {
+module.exports = function (navigation, masthead, program, partner, modal, privacy_policy) {
   return `
     <!DOCTYPE html>
     <html lang="ko-KR">
@@ -24,33 +24,9 @@ module.exports = function (navigation, masthead, program_info, partner_info, mod
     <body id="page-top">
       ${navigation}
       ${masthead}
-    
-      <!-- program -->
-      <section class="page-section" id="program">
-        <div class="container">
-          <div class="text-center">
-            <h2 class="section-heading text-uppercase">프로그램 소개</h2>
-            <h3 class="section-subheading text-muted">42 서울인을 위한 베네핏 프로그램을 소개합니다.</h3>
-          </div>
-          <div class="row text-center">
-            ${program_info}
-          </div>
-        </div>
-      </section>
-    
-      <!-- partner Grid -->
-      <section class="page-section bg-light" id="partner">
-        <div class="container">
-          <div class="text-center">
-            <h2 class="section-heading text-uppercase">파트너 소개</h2>
-            <h3 class="section-subheading text-muted">42 서울인을 위한 베네핏 파트너를 소개합니다.</h3>
-          </div>
-          <div class="row">
-            ${partner_info}
-          </div>
-        </div>
-      </section>
-    
+      ${program}
+      ${partner}
+
       <!-- About-->
       <section class="page-section" id="about">
         <div class="container">
