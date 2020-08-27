@@ -65,7 +65,7 @@
 ```
 │ .DS_Store
 │ .gitignore
-│ README.md
+│ README.md                # it's me!
 │ app.js
 │ package-lock.json
 │ package.json
