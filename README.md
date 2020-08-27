@@ -97,6 +97,15 @@
 ├─ routes
 │    index.js              # 라우터
 │
+├─ section                 # 메뉴별 코드 분리
+│    contact.js
+│    footer.js
+│    howToUse.js
+│    masthead.js
+│    navigation.js
+│    partner.js
+│    program.js
+│
 └─ templates
      home.js               # 메인 홈페이지
      modal.js              # 상세페이지 템플릿
