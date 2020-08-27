@@ -91,10 +91,10 @@
 │			index.js		# 라우터
 │
 └─ templates
-			home.js
-			modal.js
-			partnerGrid.js
-			programGrid.js
+			home.js							# 메인 홈페이지
+			modal.js						# 상세페이지 템플릿
+			partnerGrid.js			# 파트너 소개 메뉴 템플릿
+			programGrid.js			# 프로그램 소개 메뉴 템플릿
 ```
 
 
