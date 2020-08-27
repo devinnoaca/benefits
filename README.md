@@ -71,21 +71,21 @@
 │ package.json
 │
 ├─ bin
-│    www		# 서버 관련 파일, 건드리지 말 것!
+│    www                   # 서버 관련 파일, 건드리지 말 것!
 │ 
 ├─ data
-│    partners.json		# 파트너 소개 메뉴 정보 파일
-│    programs.json		# 프로그램 소개 메뉴 정보 파일
+│    partners.json         # 파트너 소개 메뉴 정보 파일
+│    programs.json         # 프로그램 소개 메뉴 정보 파일
 │ 
 ├─ lib
-│    pool.js		# json 파일 읽어오는 코드
+│    pool.js               # json 파일 읽어오는 코드
 │ 
 ├─ public
 │    ├─ assets/img
 │    │    ├─ about
 │    │    ├─ background
 │    │    ├─ logos
-│    │    └─ partners		# 파트너 로고 및 상세 페이지 이미지 폴더
+│    │    └─ partners      # 파트너 로고 및 상세 페이지 이미지 폴더
 │    │
 │    ├─ css
 │    │    styles.css
@@ -94,13 +94,13 @@
 │         scripts.js
 │
 ├─ routes
-│    index.js		# 라우터
+│    index.js              # 라우터
 │
 └─ templates
-     home.js		# 메인 홈페이지
-     modal.js		# 상세페이지 템플릿
-     partnerGrid.js		# 파트너 소개 메뉴 템플릿
-     programGrid.js		# 프로그램 소개 메뉴 템플릿
+     home.js               # 메인 홈페이지
+     modal.js              # 상세페이지 템플릿
+     partnerGrid.js        # 파트너 소개 메뉴 템플릿
+     programGrid.js        # 프로그램 소개 메뉴 템플릿
 ```
 
 
