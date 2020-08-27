@@ -75,10 +75,11 @@
 │ 
 ├─ data
 │    partners.json         # 파트너 소개 메뉴 정보 파일
+│    privacyPolicy.txt     # 개인정보 취급방침 텍스트 파일
 │    programs.json         # 프로그램 소개 메뉴 정보 파일
 │ 
 ├─ lib
-│    pool.js               # json 파일 읽어오는 코드
+│    pool.js               # data 폴더 읽어오는 코드
 │ 
 ├─ public
 │    ├─ assets/img
