@@ -7,6 +7,8 @@ const programTemplate = require('../templates/programGrid');
 const partnerTemplate = require('../templates/partnerGrid');
 const modalTemplate = require('../templates/modal');
 
+const navigation = require('../section/navigation');
+const masthead = require('../section/masthead');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -18,7 +20,14 @@ router.get('/', function(req, res, next) {
   const realPartner = partnerTemplate(partnerData);
   const modal = modalTemplate(partnerData);
   
-  const html = mainTemplate(`${realProgram}`, `${realPartner}`, `${modal}`, `${privacyPolicyData}`);
+  const html = mainTemplate(
+    `${navigation()}`,
+    `${masthead()}`,
+    `${realProgram}`,
+    `${realPartner}`, 
+    `${modal}`, 
+    `${privacyPolicyData}`
+  );
   res.send(html);
 });
 

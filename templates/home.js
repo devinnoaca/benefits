@@ -1,4 +1,4 @@
-module.exports = function (program_info, partner_info, modal, privacy_policy) {
+module.exports = function (navigation, masthead, program_info, partner_info, modal, privacy_policy) {
   return `
     <!DOCTYPE html>
     <html lang="ko-KR">
@@ -22,33 +22,8 @@ module.exports = function (program_info, partner_info, modal, privacy_policy) {
     </head>
     
     <body id="page-top">
-      <!-- Navigation-->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <img src="assets/img/logos/42_SEOUL_BENEFITS_optimised.svg" alt="" /></a>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-            aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ml-auto">
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#program">프로그램 소개</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#partner">파트너 소개</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">사용 방법</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">제안</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    
-      <!-- Masthead-->
-      <header class="masthead">
-        <div class="container">
-          <div class="masthead-subheading">Welcome to our 42 SEOUL world!</div>
-          <div class="masthead-heading text-uppercase">42 SEOUL BENEFITs</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#partner">View Contents</a>
-        </div>
-      </header>
+      ${navigation}
+      ${masthead}
     
       <!-- program -->
       <section class="page-section" id="program">
