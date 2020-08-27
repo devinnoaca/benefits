@@ -193,7 +193,7 @@ module.exports = function (program_info, partner_info, modal, privacy_policy) {
                       <!-- Project Details Go Here-->
                       <h2 class="text-uppercase">개인정보취급방침</h2>
                       <p class="item-intro text-muted">본 방침은 2020년 09월 01일부터 시행됩니다.</p>
-                      <p class="text-break" style="text-align: left;">
+                      <p class="text-break" style="text-align: left; white-space: pre-wrap;">
                         ${privacy_policy}
                       </p>
                     </div>
