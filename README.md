@@ -92,7 +92,9 @@
 │
 └─ templates
 			home.js
-			template.js
+			modal.js
+			partnerGrid.js
+			programGrid.js
 ```
 
 
@@ -100,6 +102,8 @@
 ### partners.json
 
 - 파트너 소개 메뉴 정보 파일
+
+- 예시
 
   ``` 
   {

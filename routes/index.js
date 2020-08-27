@@ -1,22 +1,24 @@
 const express = require('express');
 const router = express.Router();
-const { pool, poolPartners, poolPrograms } = require('../lib/pool');
+const { pool } = require('../lib/pool');
+
 const mainTemplate = require('../templates/home');
-const subTemplate = require('../templates/template');
+const programTemplate = require('../templates/programGrid');
+const partnerTemplate = require('../templates/partnerGrid');
+const modalTemplate = require('../templates/modal');
+
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  const partnerInfo = poolPartners();
-  const programInfo = poolPrograms();
-  const realProgram = subTemplate.program_info(programInfo);
-  const realPartner = subTemplate.partner_info(partnerInfo);
+  const programData = poolPrograms();
+  const partnerData = poolPartners();
 
-  const modal = subTemplate.modal(partnerInfo);
+  const realProgram = programTemplate(programData);
+  const realPartner = partnerTemplate(partnerData);
+  const modal = modalTemplate(partnerData);
+  
   const html = mainTemplate(`${realProgram}`, `${realPartner}`, `${modal}`);
   res.send(html);
-
-  // res.render('index', {partner_info: test});
-
 });
 
 module.exports = router;
