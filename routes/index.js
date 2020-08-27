@@ -12,12 +12,13 @@ const modalTemplate = require('../templates/modal');
 router.get('/', function(req, res, next) {
   const programData = poolPrograms();
   const partnerData = poolPartners();
+  const privacyPolicyData = poolPrivacyPolicy();
 
   const realProgram = programTemplate(programData);
   const realPartner = partnerTemplate(partnerData);
   const modal = modalTemplate(partnerData);
   
-  const html = mainTemplate(`${realProgram}`, `${realPartner}`, `${modal}`);
+  const html = mainTemplate(`${realProgram}`, `${realPartner}`, `${modal}`, `${privacyPolicyData}`);
   res.send(html);
 });
 
