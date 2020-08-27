@@ -11,6 +11,9 @@ const navigation = require('../section/navigation');
 const masthead = require('../section/masthead');
 const program = require('../section/program');
 const partner = require('../section/partner');
+const howToUse = require('../section/howToUse');
+const contact = require('../section/contact');
+const footer = require('../section/footer');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -27,6 +30,9 @@ router.get('/', function(req, res, next) {
     `${masthead()}`,
     `${program(realProgram)}`,
     `${partner(realPartner)}`, 
+    `${howToUse()}`, 
+    `${contact()}`, 
+    `${footer('본 방침은 2020년 09월 01일부터 시행됩니다.', privacyPolicyData)}`,
     `${modal}`, 
     `${privacyPolicyData}`
   );
