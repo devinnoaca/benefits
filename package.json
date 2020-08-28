@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "pm2 start ./bin/www --watch"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -12,7 +12,6 @@
     "express": "~4.16.1",
     "fs": "0.0.1-security",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "nodemon": "^2.0.4"
+    "morgan": "~1.9.1"
   }
 }
