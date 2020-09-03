@@ -184,7 +184,7 @@
     ]
   },
   {
-    "ready" : false,
+    "ready" : true,
     "id" : "veat",
     "title" : "법무법인 비트",
     "abstract" : "오피스아워 제공, 계약서 키트 제공 등",
@@ -195,7 +195,7 @@
     ],
     "button" : [
       { "name" : "비트 홈페이지 바로가기", "link" : "https://www.veatlaw.kr/" },
-      { "name" : "오피스아워 신청하기", "link" : "https://" }
+      { "name" : "오피스아워 신청하기", "link" : "https://docs.google.com/spreadsheets/d/10mwxkOBR-Pv46yZIo1wIeb0EJ4kDzDGwhfkF46Irbf4/edit#gid=0" }
     ]
   },
   {
@@ -223,7 +223,8 @@
       "예약 및 수강 문의는 대표님(02-514-0719)께 연락드려서 42 SEOUL 학생임을 밝히고 예약해주시면 됩니다!)"
     ],
     "button" : [
-      { "name" : "원스연습실 홈페이지", "link" : "http://oncevocal.itpage.kr/" }
+      { "name" : "원스연습실 홈페이지", "link" : "http://oncevocal.itpage.kr/" },
+      { "name" : "원스연습실 카카오톡 상담", "link" : "https://pf.kakao.com/_YmerC/chat" }
     ]
   },
   {
