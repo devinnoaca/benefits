@@ -5528,6 +5528,13 @@ a.close.disabled {
   padding: 1rem;
 }
 
+.modal-button {
+  justify-content: center;
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+
 .modal-footer {
   display: flex;
   flex-wrap: wrap;
