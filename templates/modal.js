@@ -7,6 +7,16 @@ module.exports = function (jsonfile) {
       i.text.forEach(j => {
         joinText += `${j + '<br>'}`;
       })
+
+      let howText = '';
+      if (i.how.length > 0) {
+        howText += `<div class="text-break" style="text-align: left"><h4 class="text-uppercase">신청 방법</h4>`;
+        i.how.forEach(h => {
+          howText += `${h + '<br>'}`;
+        })
+        howText += '</div>';
+      }
+
       var makeButton = `<div class="modal-button">`;
       i.button.forEach(j => {
         makeButton += `<button class="col-sm-12 col-md-8 col-lg-8 col-xl-5 btn btn-dark" data-dismiss="modal" type="button" onclick="window.open('${j.link}')">${j.name}</button>`
@@ -26,6 +36,7 @@ module.exports = function (jsonfile) {
                       <h2 class="text-uppercase">${i.title}</h2>
                       <p class="item-intro text-muted">${i.abstract}</p>
                       <p class="text-break" style="text-align: left;">${joinText}</p>
+                      ${howText}
                     </div>
                   </div>
                   ${makeButton}
