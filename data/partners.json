@@ -60,8 +60,8 @@
       "대한민국 대표 AI, 데이터 과학 선도기업 '솔트룩스'와 영국 데이터 사이언스 랭킹 탑티어 '사우스햄턴 데이터사이언스 아카데미'의 노하우가 담긴 커리큘럼을 1:1 전문 튜터가 온라인에서 제공합니다."
     ],
     "button" : [
-      { "name" : "데이터 사이언스 파이썬 프로그래밍 과정(Technical) 바로가기", "link" : "https://academy.saltlux.com/fundamentalsData.php" },
-      { "name" : "데이터 사이언스 분석 중심 과정(Non-technical) 바로가기", "link" : "https://academy.saltlux.com/fundamentalsDataNonTech.php" },
+      { "name" : "데이터 사이언스 파이썬 프로그래밍 과정<br>(Technical) 바로가기", "link" : "https://academy.saltlux.com/fundamentalsData.php" },
+      { "name" : "데이터 사이언스 분석 중심 과정<br>(Non-technical) 바로가기", "link" : "https://academy.saltlux.com/fundamentalsDataNonTech.php" },
       { "name" : "비즈니스를 위한 AI와 머신러닝 과정 바로가기", "link" : "https://academy.saltlux.com/ai.php" }
     ]
   },
