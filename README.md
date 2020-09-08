@@ -149,7 +149,7 @@
     ],
     "how" : [
       "[혜택 01]",
-      "42 SEOUL 교육생 전용 채널에서 id@student.innovationacademy.kr로 가입 신청",
+      "42 SEOUL 교육생 전용 채널에서 id@42seoul.kr로 가입 신청",
       "기존 구름 회원인 경우 contact@goorm.io로 42 SEOUL 재학증명서 제출",
       "[혜택 02]",
       "구름EDU에서 강좌 결제하기 클릭 후 코드 번호(하단 이미지 참조) 입력",
