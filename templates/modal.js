@@ -5,12 +5,11 @@ module.exports = function (jsonfile) {
     if(i.ready == true) {
       var joinText = '';
       i.text.forEach(j => {
-        joinText += j;
-        joinText += '<br>';
+        joinText += `${j + '<br>'}`;
       })
-      var makeButton = `<div class="modal-body">`;
+      var makeButton = `<div class="modal-button">`;
       i.button.forEach(j => {
-        makeButton += `<button class="btn btn-dark" data-dismiss="modal" type="button" onclick="window.open('${j.link}')">${j.name}</button>`
+        makeButton += `<button class="col-sm-12 col-md-8 col-lg-8 col-xl-5 btn btn-dark" data-dismiss="modal" type="button" onclick="window.open('${j.link}')">${j.name}</button>`
       })
       makeButton += "</div>"
 
@@ -26,9 +25,10 @@ module.exports = function (jsonfile) {
                       <!-- Project Details Go Here-->
                       <h2 class="text-uppercase">${i.title}</h2>
                       <p class="item-intro text-muted">${i.abstract}</p>
-                      <p class="text-break" style="text-align: left;">${joinText}${makeButton}</p>
+                      <p class="text-break" style="text-align: left;">${joinText}</p>
                     </div>
                   </div>
+                  ${makeButton}
                   <img class="img-fluid d-block mx-auto" src="assets/img/partners/${i.id}-portfolio.png" alt="" />
                   <div class="col-lg-8">
                     <div class="modal-body">
