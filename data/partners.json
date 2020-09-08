@@ -14,7 +14,6 @@
       { "name" : "코드라이언 바로가기", "link" : "https://www.codelion.net" }
     ],
     "img" : [
-      0
     ]
   },
   {
@@ -42,7 +41,6 @@
       { "name" : "42 SEOUL 교육생 전용 채널 바로가기", "link" : "https://42seoul.goorm.io/" }
     ],
     "img" : [
-      0
     ]
   },
   {
@@ -64,7 +62,6 @@
       { "name" : "Ainize® 바로가기", "link" : "https://www.ainize.ai" }
     ],
     "img" : [
-      0
     ]
   },
   {
@@ -88,7 +85,6 @@
       { "name" : "비즈니스를 위한 AI와 머신러닝 과정 바로가기", "link" : "https://academy.saltlux.com/ai.php" }
     ],
     "img" : [
-      3,
       ["00", "00", "url"],
       ["00", "00", "url"],
       ["00", "00", "url"]
@@ -111,7 +107,6 @@
 	  { "name" : "인프런 강의 신청 바로가기", "link" : "https://docs.google.com/spreadsheets/d/1TbzSeKOZNkMR26VyoNN_ohUeeAqgTDBAx34BAczy3PQ/edit?ts=5f44dbec#gid=447543836" }
     ],
     "img" : [
-      1,
       ["00", "00", "url"]
     ]
   },
@@ -131,7 +126,6 @@
       { "name" : "메가존 바로가기", "link" : "https://it.livestudy.com/index" }
     ],
     "img" : [
-      0
     ]
   },
   {
@@ -149,7 +143,6 @@
       { "name" : "러닝스푼즈 바로가기", "link" : "https://learningspoons.com/" }
     ],
     "img" : [
-      0
     ]
   },
   {
@@ -173,7 +166,6 @@
       { "name" : "패스트캠퍼스 온라인 교육 과정 한 눈에 보기 (준비중)", "link" : "http://www.google.co.kr" }
     ],
     "img" : [
-      0
     ]
   },
   {
@@ -195,7 +187,6 @@
       { "name" : "콜라비 바로가기", "link" : "https://www.collabee.co" }
     ],
     "img" : [
-      0
     ]
   },
   {
@@ -215,7 +206,6 @@
       { "name" : "코드잇 바로가기", "link" : "https://www.codeit.kr" }
     ],
     "img" : [
-      1,
       ["00", "00", "url"]
     ]
   },
@@ -239,7 +229,6 @@
       { "name" : "레노버 교육 할인 스토어 바로가기", "link" : "https://www.lenovo.com/kr/ko/education-store" }
     ],
     "img" : [
-      23,
       ["00", "00", "url"],
       ["00", "00", "url"],
       ["00", "00", "url"],
@@ -283,7 +272,6 @@
       { "name" : "잔디 블로그 바로가기", "link" : "http://blog.jandi.com/ko/" }
     ],
     "img" : [
-      0
     ]
   },
   {
@@ -306,7 +294,6 @@
       { "name" : "오피스아워 신청하기", "link" : "https://docs.google.com/spreadsheets/d/10mwxkOBR-Pv46yZIo1wIeb0EJ4kDzDGwhfkF46Irbf4/edit#gid=0" }
     ],
     "img" : [
-      2,
       ["00", "00", "url"],
       ["00", "00", "url"]
     ]
@@ -326,6 +313,8 @@
     ],
     "button" : [
       { "name" : "쉐어니도 바로가기", "link" : "https://www.sharenido.com/" }
+    ],
+    "img" : [
     ]
   },
   {
@@ -343,6 +332,8 @@
     "button" : [
       { "name" : "원스연습실 바로가기", "link" : "http://oncevocal.itpage.kr/" },
       { "name" : "원스연습실 카카오톡 상담 바로가기", "link" : "https://pf.kakao.com/_YmerC/chat" }
+    ],
+    "img" : [
     ]
   },
   {
@@ -360,6 +351,8 @@
     ],
     "button" : [
       { "name" : "준오헤어 바로가기", "link" : "https://www.junohair.com/" }
+    ],
+    "img" : [
     ]
   },
   {
@@ -375,6 +368,8 @@
     ],
     "button" : [
       { "name" : "42 SEOUL 교육생 전용 페이지 바로가기", "link" : "https://corp.kensington.co.kr/innoaca" }
+    ],
+    "img" : [
     ]
   },
   {
@@ -399,6 +394,8 @@
     ],
     "button" : [
       { "name" : "상세 할인 혜택 바로가기", "link" : "http://www.clplus.net/promotion/intranet/sb/innovationacademy/html/index.html" }
+    ],
+    "img" : [
     ]
   },
   {
@@ -414,6 +411,8 @@
     ],
     "button" : [
       { "name" : "스낵포 바로가기", "link" : "https://www.snackfor.com" }
+    ],
+    "img" : [
     ]
   },
   {
@@ -430,6 +429,8 @@
     ],
     "button" : [
       { "name" : "그린카 바로가기", "link" : "https://www.greencar.co.kr/index.do" }
+    ],
+    "img" : [
     ]
   },
   {
@@ -447,6 +448,8 @@
     "button" : [
       { "name" : "[피트니스]42 SEOUL 전용 페이지 바로가기", "link" : "https://smartstore.naver.com/gotofitness_special/products/5033316032/" },
       { "name" : "[골프]42 SEOUL 전용 페이지 바로가기", "link" : "https://smartstore.naver.com/gotofitness_special/products/5033085976/" }
+    ],
+    "img" : [
     ]
   },
   {
@@ -464,6 +467,8 @@
     "button" : [
       { "name" : "CU Post 바로가기", "link" : "https://www.cupost.co.kr/" },
       { "name" : "무인택배 사용 매뉴얼 바로가기", "link" : "https://" }
+    ],
+    "img" : [
     ]
   },
   {
@@ -482,6 +487,8 @@
     ],
     "button" : [
       { "name" : "42 SEOUL 전용몰 바로가기", "link" : "https://www." }
+    ],
+    "img" : [
     ]
   },
   {
@@ -500,6 +507,8 @@
     ],
     "button" : [
       { "name" : "42 SEOUL 전용몰 바로가기", "link" : "https://www." }
+    ],
+    "img" : [
     ]
   },
   {
@@ -517,6 +526,8 @@
     ],
     "button" : [
       { "name" : "밀리의서재 바로가기", "link" : "https://millie.co.kr/" }
+    ],
+    "img" : [
     ]
   },
   {
@@ -535,6 +546,8 @@
     ],
     "button" : [
       { "name" : "튜터링 바로가기", "link" : "https://www." }
+    ],
+    "img" : [
     ]
   }
 ]
