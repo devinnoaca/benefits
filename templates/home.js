@@ -42,6 +42,13 @@ module.exports = function (navigation, masthead, program, partner, use, contact,
       <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
       <!-- Core theme JS-->
       <script src="javascripts/scripts.js"></script>
+      <!-- Partners Modal Image Resize JS -->
+      <script src="javascripts/jquery.rwdImageMaps.js"></script>
+      <script>
+        $(document).ready(function(e) {
+            $('img[usemap]').rwdImageMaps();
+        });
+      </script>
     </body>
     </html>
   `;
