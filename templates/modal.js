@@ -19,9 +19,15 @@ module.exports = function (jsonfile) {
 
       var makeButton = `<div class="modal-button">`;
       i.button.forEach(j => {
-        makeButton += `<button class="col-sm-12 col-md-8 col-lg-8 col-xl-5 btn btn-dark" data-dismiss="modal" type="button" onclick="window.open('${j.link}')">${j.name}</button>`
+        makeButton += `<button class="col-sm-12 col-md-8 col-lg-5 col-xl-5 btn btn-dark" data-dismiss="modal" type="button" onclick="window.open('${j.link}')">${j.name}</button>`;
       })
-      makeButton += "</div>"
+      makeButton += "</div>";
+
+      let image = `<img class="img-fluid d-block mx-auto modal-${i.id}" src="assets/img/partners/${i.id}-portfolio.png" usemap="#${i.id}" alt="${i.id}" /><map name="${i.id}" id="${i.id}">`;
+      i.img.forEach(p => {
+        image += `<area shape="rect" coords="${p[0]}, ${p[1]}, ${p[2]}, ${p[3]}" href="${p[4]}">`;
+      })
+      image += '</map>';
 
       modal += `
         <div class="portfolio-modal modal fade" id="portfolio-${i.id}" tabindex="-1" role="dialog" aria-hidden="true">
@@ -40,7 +46,7 @@ module.exports = function (jsonfile) {
                     </div>
                   </div>
                   ${makeButton}
-                  <img class="img-fluid d-block mx-auto" src="assets/img/partners/${i.id}-portfolio.png" alt="" />
+                  ${image}
                   <div class="col-lg-8">
                     <div class="modal-body">
                       <button class="btn btn-primary" data-dismiss="modal" type="button">
