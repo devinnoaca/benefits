@@ -20,29 +20,35 @@
 				var that = this,
 					$that = $(that);
 
-				const id = $(this).attr('usemap').slice(1);
-				const doc = document.querySelector(`.modal-${id}`)
-				// if (doc.style.display === "none")
-				console.log(doc.style.display);
 				// Since WebKit doesn't know the height until after the image has loaded, perform everything in an onload copy
 				$('<img />').on('load', function() {
 					var attrW = 'width',
 						attrH = 'height',
 						w = $that.attr(attrW),
 						h = $that.attr(attrH);
-
 					if (!w || !h) {
 						var temp = new Image();
 						temp.src = $that.attr('src');
-						if (!w)
-							w = temp.width;
-						if (!h)
-							h = temp.height;
+						const windowWidth = window.innerWidth;
+						if (!w) {
+							if (windowWidth >= 1200)
+								w = 1140;
+							else if (windowWidth >= 992)
+								w = 960;
+							else if (windowWidth >= 768)
+								w = 720;
+							else
+								w = 540
+						}
+						if (!h) {
+							h = temp.height * (w / temp.width);
+						}
 					}
 
-					var wPercent = $that.width()/100,
-						hPercent = $that.height()/100,
-						map = $that.attr('usemap').replace('#', ''),
+					console.log(w, h)
+					let	map = $that.attr('usemap').replace('#', ''),
+						wPercent = $(`.modal-${map}`)[0].width / $(`.modal-${map}`)[0].naturalWidth,
+						hPercent = $(`.modal-${map}`)[0].height / $(`.modal-${map}`)[0].naturalHeight,
 						c = 'coords';
 
 					$('map[name="' + map + '"]').find('area').each(function() {
@@ -55,9 +61,9 @@
 
 						for (var i = 0; i < coordsPercent.length; ++i) {
 							if (i % 2 === 0)
-								coordsPercent[i] = parseInt(((coords[i]/w)*100)*wPercent);
+								coordsPercent[i] = parseInt(coords[i] * wPercent);
 							else
-								coordsPercent[i] = parseInt(((coords[i]/h)*100)*hPercent);
+								coordsPercent[i] = parseInt(coords[i] * hPercent);
 						}
 						$this.attr(c, coordsPercent.toString());
 					});
