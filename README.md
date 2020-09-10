@@ -127,6 +127,7 @@
   | text     | 상세 페이지의 본문(소개). 한 줄씩 ""로 묶어 작성                   |
   | how      | 상세 페이지의 본문(사용 방법). 한 줄씩 ""로 묶어 작성         |
   | button   | 상세 페이지의 버튼. name에 버튼 내용, link에 연결될 URL 작성 |
+  | img      | 상세 페이지 이미지 내부에서 링크가 필요할 경우 사용할 좌표      |
 
 
 - 예시
@@ -158,6 +159,8 @@
       { "name" : "구름IDE 바로가기", "link" : "https://ide.goorm.io/" },
       { "name" : "구름IDE가 궁금하다면?", "link" : "https://goor.me/QSZcy" },
       { "name" : "42 SEOUL 교육생 전용 채널", "link" : "https://42seoul.goorm.io/" }
+    ],
+    "img" : [
     ]
   }
   ```
