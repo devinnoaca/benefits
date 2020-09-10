@@ -38,7 +38,7 @@
 							else if (windowWidth >= 768)
 								w = 720;
 							else if (windowWidth >= 576)
-								w = 540
+								w = 540;
 							else
 								console.log(w, window.innerWidth, $that.width())
 								w = window.innerWidth - 34;

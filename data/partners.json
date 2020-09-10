@@ -85,9 +85,9 @@
       { "name" : "비즈니스를 위한 AI와 머신러닝 과정<br> 바로가기", "link" : "https://academy.saltlux.com/ai.php" }
     ],
     "img" : [
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"]
+      [210, 2850, 910, 2920, "https://academy.saltlux.com/fundamentalsData.php"],
+      [210, 2940, 885, 3010, "https://academy.saltlux.com/fundamentalsDataNonTech.php"],
+      [210, 3065, 915, 3150, "https://academy.saltlux.com/ai.php"]
     ]
   },
   {
@@ -107,7 +107,7 @@
 	  { "name" : "인프런 강의 신청 바로가기", "link" : "https://docs.google.com/spreadsheets/d/1TbzSeKOZNkMR26VyoNN_ohUeeAqgTDBAx34BAczy3PQ/edit?ts=5f44dbec#gid=447543836" }
     ],
     "img" : [
-      ["00", "00", "00", "00", "url"]
+      [460, 4820, 975, 4870, "https://forms.gle/jnAuX9fLikR9gzne7"]
     ]
   },
   {
@@ -206,7 +206,7 @@
       { "name" : "코드잇 바로가기", "link" : "https://www.codeit.kr" }
     ],
     "img" : [
-      ["00", "00", "url"]
+      [280, 9006, 860, 9155, "https://www.codeit.kr"]
     ]
   },
   {
@@ -229,14 +229,14 @@
       { "name" : "레노버 교육 할인 스토어 바로가기", "link" : "https://www.lenovo.com/kr/ko/education-store" }
     ],
     "img" : [
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
+      ["00", "00", "00", "00", "https://www.lenovo.com/kr/ko/education-store"],
+      ["00", "00", "00", "00", "https://www.lenovo.com/kr/ko/laptops/thinkpad/thinkpad-t-series/c/thinkpad-t-series"],
+      ["00", "00", "00", "00", "https://www.lenovo.com/kr/ko/laptops/thinkpad/thinkpad-x-series/c/thinkpad-x-series"],
+      ["00", "00", "00", "00", "https://www.lenovo.com/kr/ko/laptops/thinkpad/thinkpad-p-series/c/thinkpad-p-series"],
+      ["00", "00", "00", "00", "https://www.lenovo.com/kr/ko/laptops/legion/legion-laptops/c/legion-laptops"],
+      ["00", "00", "00", "00", "https://www.lenovo.com/kr/ko/laptops/thinkpad/thinkpad-e-series/c/thinkpad-e-series"],
+      ["00", "00", "00", "00", "https://www.lenovo.com/kr/ko/accessories-and-monitors/docking/c/docking"],
+      ["00", "00", "00", "00", "https://www.lenovo.com/kr/ko/d/deals/quickship?sort=sortBy&currentResultsLayoutType=grid&visibleDatas=facet_Brand%3A%EB%B8%8C%EB%9E%9C%EB%93%9C%3AThinkPad%3Bfacet_leadTime%3A%EB%B0%B0%EC%86%A1%EA%B8%B0%EA%B0%84%3A2%20Business%20Days"],
       ["00", "00", "00", "00", "url"],
       ["00", "00", "00", "00", "url"],
       ["00", "00", "00", "00", "url"],
@@ -294,8 +294,8 @@
       { "name" : "오피스아워 신청하기", "link" : "https://docs.google.com/spreadsheets/d/10mwxkOBR-Pv46yZIo1wIeb0EJ4kDzDGwhfkF46Irbf4/edit#gid=0" }
     ],
     "img" : [
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"]
+      [270, 3940, 485, 4005, "https://docs.google.com/spreadsheets/d/10mwxkOBR-Pv46yZIo1wIeb0EJ4kDzDGwhfkF46Irbf4/edit#gid=0"],
+      [655, 3940, 865, 4005, "https://www.veatlaw.kr/main/contact"]
     ]
   },
   {
