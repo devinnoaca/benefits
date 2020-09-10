@@ -26,10 +26,10 @@
 						attrH = 'height',
 						w = $that.attr(attrW),
 						h = $that.attr(attrH);
+					const windowWidth = window.innerWidth;
 					if (!w || !h) {
 						var temp = new Image();
 						temp.src = $that.attr('src');
-						const windowWidth = window.innerWidth;
 						if (!w) {
 							if (windowWidth >= 1200)
 								w = 1140;
@@ -37,35 +37,47 @@
 								w = 960;
 							else if (windowWidth >= 768)
 								w = 720;
-							else
+							else if (windowWidth >= 576)
 								w = 540
+							else
+								console.log(w, window.innerWidth, $that.width())
+								w = window.innerWidth - 34;
 						}
 						if (!h) {
 							h = temp.height * (w / temp.width);
 						}
 					}
 
-					console.log(w, h)
-					let	map = $that.attr('usemap').replace('#', ''),
-						wPercent = $(`.modal-${map}`)[0].width / $(`.modal-${map}`)[0].naturalWidth,
-						hPercent = $(`.modal-${map}`)[0].height / $(`.modal-${map}`)[0].naturalHeight,
-						c = 'coords';
+					let	map = $that.attr('usemap').replace('#', '');
+					let percent;
+					if (windowWidth >= 1200)
+						percent = 1
+					else if (windowWidth >= 992)
+						percent = 960 / 1140;
+					else if (windowWidth >= 768)
+						percent = 720 / 1140;
+					else if (windowWidth >= 576)
+						percent = 540 / 1140;
+					else
+						percent = w / 1140;
+
+					console.log(w, percent);
 
 					$('map[name="' + map + '"]').find('area').each(function() {
 						var $this = $(this);
-						if (!$this.data(c))
-							$this.data(c, $this.attr(c));
+						if (!$this.data('coords'))
+							$this.data('coords', $this.attr('coords'));
 
-						var coords = $this.data(c).split(','),
+						var coords = $this.data('coords').split(','),
 							coordsPercent = new Array(coords.length);
 
 						for (var i = 0; i < coordsPercent.length; ++i) {
 							if (i % 2 === 0)
-								coordsPercent[i] = parseInt(coords[i] * wPercent);
+								coordsPercent[i] = parseInt(coords[i] * percent);
 							else
-								coordsPercent[i] = parseInt(coords[i] * hPercent);
+								coordsPercent[i] = parseInt(coords[i] * percent);
 						}
-						$this.attr(c, coordsPercent.toString());
+						$this.attr('coords', coordsPercent.toString());
 					});
 				}).attr('src', $that.attr('src'));
 			});
