@@ -1,4 +1,4 @@
-module.exports = function (navigation, masthead, program, partner, use, contact, footer, modal) {
+module.exports = function (animation, navigation, masthead, program, partner, use, contact, footer, modal) {
   return `
     <!DOCTYPE html>
     <html lang="ko-KR">
@@ -22,6 +22,7 @@ module.exports = function (navigation, masthead, program, partner, use, contact,
     </head>
     
     <body id="page-top">
+      ${animation}
       ${navigation}
       ${masthead}
 
@@ -49,6 +50,7 @@ module.exports = function (navigation, masthead, program, partner, use, contact,
             $('img[usemap]').rwdImageMaps();
         });
       </script>
+      <script src="javascripts/mainResize.js"></script>
     </body>
     </html>
   `;
