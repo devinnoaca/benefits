@@ -10548,6 +10548,32 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 100%;
   height: 937px;
   overflow: hidden;
+  animation: down 1s forwards;
+  animation-delay: 3s;
+}
+
+@keyframes down {
+  0% {
+    height: 937px;
+  }
+  100% {
+    height: 0px;
+  }
+}
+
+#mainNav {
+  opacity: 0%;
+  animation: nav 1s forwards;
+  animation-delay: 4s;
+}
+
+@keyframes nav {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 .black-cover {
