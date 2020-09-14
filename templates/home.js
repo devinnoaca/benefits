@@ -22,8 +22,8 @@ module.exports = function (animation, navigation, masthead, program, partner, us
     </head>
     
     <body id="page-top">
-      ${animation}
       ${navigation}
+      ${animation}
       ${masthead}
 
       ${program}
