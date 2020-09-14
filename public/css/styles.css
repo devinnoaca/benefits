@@ -10627,7 +10627,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   height: 0%;
   top: -24px;
   animation: ani3 0.25s forwards;
-  animation-delay: 0.75s;
+  animation-delay: 0.8s;
 }
 
 @keyframes ani3 {
@@ -10743,3 +10743,4 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 70%;
   }
 }
+
