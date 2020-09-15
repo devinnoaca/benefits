@@ -61,8 +61,6 @@
 					else
 						percent = w / 1140;
 
-					console.log(w, percent);
-
 					$('map[name="' + map + '"]').find('area').each(function() {
 						var $this = $(this);
 						if (!$this.data('coords'))
