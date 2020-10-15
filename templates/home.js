@@ -1,11 +1,11 @@
-module.exports = function (navigation, masthead, program, partner, use, contact, footer, modal) {
+module.exports = function (animation, navigation, masthead, program, partner, use, contact, footer, modal) {
   return `
     <!DOCTYPE html>
     <html lang="ko-KR">
     
     <head>
       <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrinkf-to-fit=no" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
       <meta name="description" content="" />
       <meta name="author" content="" />
       <title>42 SEOUL BENEFITS</title>
@@ -23,6 +23,7 @@ module.exports = function (navigation, masthead, program, partner, use, contact,
     
     <body id="page-top">
       ${navigation}
+      ${animation}
       ${masthead}
 
       ${program}
@@ -42,6 +43,14 @@ module.exports = function (navigation, masthead, program, partner, use, contact,
       <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
       <!-- Core theme JS-->
       <script src="javascripts/scripts.js"></script>
+      <!-- Partners Modal Image Resize JS -->
+      <script src="javascripts/jquery.rwdImageMaps.js"></script>
+      <script>
+        $(document).ready(function(e) {
+            $('img[usemap]').rwdImageMaps();
+        });
+      </script>
+      <script src="javascripts/mainResize.js"></script>
     </body>
     </html>
   `;

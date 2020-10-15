@@ -9,6 +9,7 @@ const modalTemplate = require('../templates/modal');
 
 const navigation = require('../section/navigation');
 const masthead = require('../section/masthead');
+const animation = require('../section/animation');
 const program = require('../section/program');
 const partner = require('../section/partner');
 const howToUse = require('../section/howToUse');
@@ -26,6 +27,7 @@ router.get('/', function(req, res, next) {
   const modal = modalTemplate(partnerData);
   
   const html = mainTemplate(
+      `${animation()}`,
     `${navigation()}`,
     `${masthead()}`,
     `${program(realProgram)}`,

@@ -10,7 +10,9 @@ module.exports = function (jsonfile) {
               <div class="partner-hover">
                 <div class="partner-hover-content"><i class="fas fa-plus fa-2x"></i></div>
               </div>
-              <img class="img-fluid" src="assets/img/partners/${i.id}.png" alt="" />
+              <div class="partner-thumbnail">
+                <img class="img-fluid" src="assets/img/partners/${i.id}.png" alt="" />
+              </div>
             </a>
             <div class="partner-caption">
               <div class="partner-caption-heading" style="font-weight: bold">${i.title}</div>

@@ -474,8 +474,8 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .img-thumbnail {
@@ -2445,7 +2445,7 @@ textarea.form-control {
   background-color: transparent;
   border: 1px solid transparent;
   margin: 0.15rem;
-  padding: 0.375rem 0.75rem;
+  padding: 0.375rem 0.5rem;
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
@@ -5528,6 +5528,19 @@ a.close.disabled {
   padding: 1rem;
 }
 
+.modal-button {
+  justify-content: center;
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-button {
+    width: 100%;
+  }
+}
+
 .modal-footer {
   display: flex;
   flex-wrap: wrap;
@@ -7377,7 +7390,6 @@ button.bg-dark:focus {
 
 .fixed-top {
   position: fixed;
-  top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
@@ -10514,3 +10526,247 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.partner-thumbnail {
+  overflow: hidden;
+}
+
+.partner-thumbnail > img {
+  transition:all 0.6s;
+}
+
+.partner-thumbnail > img:hover {
+  transform:scale(1.2);
+  -webkit-transform:scale(1.2);
+  -moz-transform:scale(1.2);
+  -ms-transform:scale(1.2);
+  -o-transform:scale(1.2);
+}
+
+.main-cover {
+  position: relative;
+  width: 100%;
+  height: 1300px;
+  overflow: hidden;
+  animation: down 1s forwards;
+  animation-delay: 3s;
+}
+
+@keyframes down {
+  0% {
+    height: 1300px;
+  }
+  100% {
+    height: 0px;
+  }
+}
+
+#mainNav {
+  opacity: 0%;
+  animation: nav 1s forwards;
+  animation-delay: 4s;
+}
+
+@keyframes nav {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.black-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  left: 0;
+  top: 0;
+}
+
+.main-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 30%;
+  min-width: 150px;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.main-logo > img {
+  width: 100%;
+  height: auto;
+}
+
+.animation-logo {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.animation1 {
+  top: -120px;
+  animation: ani1 0.5s forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes ani1 {
+  0% {
+    top: -120px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.animation-logo > img {
+  width: 100%;
+  height: auto;
+}
+
+.animation2 {
+  left: -100px;
+  animation: ani2 0.4s forwards;
+  animation-delay: 0.55s;
+}
+
+@keyframes ani2 {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.animation3 {
+  height: 0%;
+  top: -24px;
+  animation: ani3 0.25s forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes ani3 {
+  0% {
+    top: -24px;
+    height: 0%;
+  }
+  100% {
+    top: 0;
+    height: 100%;
+  }
+}
+
+.animation4 {
+  top: -40px;
+  animation: ani4 0.3s forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes ani4 {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.animation5 {
+  bottom: -70px;
+  animation: ani5 0.3s forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes ani5 {
+  0% {
+    bottom: -70px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+.animation6 {
+  bottom: -95px;
+  animation: ani6 0.4s forwards;
+  animation-delay: 1.4s;
+}
+
+@keyframes ani6 {
+  0% {
+    bottom: -95px;
+  }
+  100% {
+    bottom: 0;
+  }
+
+}
+
+.animation7 {
+  top: -70px;
+  animation: ani7 0.4s forwards;
+  animation-delay: 1.4s;
+}
+
+@keyframes ani7 {
+  0% {
+    top: -70px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.animation8 {
+  left: 100px;
+  animation: ani8 0.4s forwards;
+  animation-delay: 2s;
+}
+
+@keyframes ani8 {
+  0% {
+    left: 100px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.animation-block {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  z-index: 2;
+  background-color: black;
+  bottom: 0;
+}
+
+.animation9 {
+  z-index: 1;
+}
+
+.animation0 {
+  animation: ani0 0.3s forwards;
+  animation-delay: 2.1s;
+}
+
+@keyframes ani0 {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
