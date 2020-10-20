@@ -5,9 +5,11 @@
     "title" : "멋쟁이사자처럼",
     "abstract" : "코드라이언 교육 코스 30% 할인",
     "text" : [
+      "42 SEOUL 교육생을 위해 코드라이언 교육 코스 30% 할인 제공!",
     ],
     "how" : [
-      "id@42seoul.kr 로 가입 시 30% 혜택 적용"
+      "01. id@student.42seoul.kr 로 가입 (필수!!!)"
+      "02. 'CONTACT US'에 42 SEOUL 교육생임을 밝히고 결제 문의 남겨 인증받은 후 이용"
     ],
     "button" : [
       { "name" : "멋쟁이사자처럼 바로가기", "link" : "https://likelion.net" },
