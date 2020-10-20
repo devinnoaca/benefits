@@ -420,17 +420,41 @@
     "ready" : false,
     "id" : "goto",
     "title" : "GOTO 피트니스",
-    "abstract" : "준비 중",
-    "abstract-" : "피트니스&골프 멤버십 할인 제공",
+    "abstract" : "피트니스&골프 멤버십 할인 제공",
     "text" : [
-
+      "[혜택 개요]",
+      "01. GOTO피트니스 프리패스 멤버십 할인 제공 (1개월/3개월/6개월/12개월)",
+      "02. GOTO 골프 프리패스 멤버십 할인 제공 (3개월/6개월/12개월)",
+      "&nbsp;&nbsp;> 42 SEOUL 교육생과 직계 가족 모두에 동등한 혜택이 제공됩니다."
     ],
     "how" : [
-
+      "01. 42 SEOUL 교육생 전용 페이지에 접속하여 원하는 혜택 선택 후 결제 (회사명 : 이노베이션 아카데미)",
+      "02. 담당자에 신분증과 42 SEOUL 소속증명서를 제출하여 인증 후 이용 가능"
     ],
     "button" : [
       { "name" : "[피트니스]42 SEOUL 전용 페이지 바로가기", "link" : "https://smartstore.naver.com/gotofitness_special/products/5033316032/" },
       { "name" : "[골프]42 SEOUL 전용 페이지 바로가기", "link" : "https://smartstore.naver.com/gotofitness_special/products/5033085976/" }
+    ],
+    "img" : [
+    ]
+  },
+  {
+    "ready" : false,
+    "id" : "millie",
+    "title" : "밀리의서재",
+    "abstract" : "구독권 할인 제공",
+    "text" : [
+      "[혜택 01] 밀리의서재 6개월 구독권 할인(15% 할인) >> 할인가 : 49,900원",
+      "[혜택 02] 밀리의서재 12개월 구독권 할인(25% 할인) >> 할인가 : 89,000원"
+    ],
+    "how" : [
+      "01. 할인혜택 신청폼 작성",
+      "02. 밀리의서재 측으로부터 안내를 받아 결제 후 이용",
+      "&nbsp;&nbsp;> 42 SEOUL 신청자 리스트를 월별로 공유하므로 밀리의서재 측의 안내에 시간이 다소 소요될 수 있습니다."
+    ],
+    "button" : [
+      { "name" : "밀리의서재 바로가기", "link" : "https://www.millie.co.kr/company/company.html?_emk_keyword" },
+      { "name" : "할인혜택 신청하기", "link" : "https://docs.google.com/forms/d/e/1FAIpQLSc7p9ZsobjzkydeUCFwvQcvlJ6mKtA0-eP2LIUZ7xijDhH1Xg/viewform" }
     ],
     "img" : [
     ]
