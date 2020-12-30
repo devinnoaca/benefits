@@ -459,7 +459,7 @@
     ]
   },
   {
-    "ready" : false,
+    "ready" : true,
     "id" : "goto",
     "title" : "GOTO 피트니스",
     "abstract" : "피트니스&골프 멤버십 할인 제공",
@@ -481,7 +481,7 @@
     ]
   },
   {
-    "ready" : false,
+    "ready" : true,
     "id" : "millie",
     "title" : "밀리의서재",
     "abstract" : "구독권 할인 제공",
