@@ -5,7 +5,7 @@
     "title" : "멋쟁이사자처럼",
     "abstract" : "코드라이언 교육 코스 30% 할인",
     "text" : [
-      "42 SEOUL 교육생을 위해 코드라이언 교육 코스 30% 할인 제공!"
+      "42 SEOUL 교육생을 위해 코드라이언 교육 코스 30% 할인 제공!",
     ],
     "how" : [
       "01. id@student.42seoul.kr 로 가입 (필수!!!)",
@@ -31,8 +31,8 @@
       "[혜택 03, 04] 클라우드 통합 개발환경으로 별도 설치 없이 온라인 환경에서 개발이 가능한 IDE 제공!"
     ],
     "how" : [
-      "[혜택 01]<br>01. 42 SEOUL 교육생 전용 채널에서 id@42seoul.kr로 가입 신청",
-      "02.기존 구름 회원인 경우 contact@goorm.io로 42 SEOUL 재학증명서 제출",
+      "[혜택 01]<br>01. 42 SEOUL 교육생 전용 채널에서 id@student.42seoul.kr로 가입 신청",
+      "02.기존 구름 회원인 경우 contact@goorm.io로 42 SEOUL 소속증명서 제출",
       "[혜택 02]<br>01. 구름EDU에서 강좌 결제하기 클릭 후 코드 번호(하단 이미지 참조) 입력",
       "[혜택 03, 04]<br>01. 구름IDE > 내 정보 > 쿠폰 관리 > 코드 입력에서 코드 번호(하단 이미지 참조) 입력"
     ],
@@ -45,6 +45,28 @@
     "img" : [
     ]
   },
+  {
+    "ready" : true,
+    "id" : "POCU",
+    "title" : "POCU 아카데미",
+    "abstract" : "전 과목 정규 학기 수강료 15% 할인",
+    "text" : [
+      "42 SEOUL 교육생은 특별 할인가로 POCU 아카데미의 정규 학기를 들을 수 있습니다.",
+      "모든 과목에 해당되며, 정규학기 수강료 분에 한해 진행됩니다. (동영상 강좌 할인 X)",
+      "할인 기간은 신청일로부터 1년이며, 재신청 시 42 SEOUL 교육생 신분 유지 중이라면 혜택을 받으실 수 있습니다."
+    ],
+    "how" : [
+      "01. POCU 아카데미에 개인 메일로 가입 진행",
+      "02. 42 SEOUL 소속증명서 제출하여 인증 진행",
+      "",
+      "(사전 공지 후 내부 신청 폼을 통해 인증을 진행할 수도 있습니다.)"
+    ],
+    "button" : [
+      { "name" : "POCU 아카데미 신청방법", "link" : "https://blog.pocu.academy/ko/2020/12/25/42seoul-discount.html" }
+    ],
+    "img" : [
+    ]
+  }
   {
     "ready" : true,
     "id" : "comcom",
@@ -77,7 +99,7 @@
     ],
     "how" : [
       "01. 할인 코드 발급 요청 : 메일 혹은 전화 문의 (02-2193-1676 / edu@saltlux.com)",
-      "02. id@42seoul.kr 계정에서 발급받은 할인 코드로 신청 및 결제",
+      "02. id@ student.42seoul.kr 계정에서 발급받은 할인 코드로 신청 및 결제",
       "03. 교육 플랫폼(CANVAS) 초대 수락(개강 2~3일 전 발송 예정)",
       "04. 교육 수강"
     ],
@@ -103,11 +125,11 @@
     ],
     "how" : [
       "01. id@student.42seoul.kr로 회원가입",
-      "02. 별도의 구글폼을 통해 사전신청을 해주시면 워킹데이 기준 2~3일 내로 등록이 완료됩니다!"
+      "02. 아래의 신청 링크에 접속하여 신청자 정보를 남겨주시면 워킹데이 기준 7일 내로 등록이 완료됩니다!"
     ],
     "button" : [
       { "name" : "인프런 홈페이지 바로가기", "link" : "http://inflearn.com/" },
-	  { "name" : "인프런 강의 신청 바로가기", "link" : "https://docs.google.com/spreadsheets/d/1TbzSeKOZNkMR26VyoNN_ohUeeAqgTDBAx34BAczy3PQ/edit?ts=5f44dbec#gid=447543836" }
+	  { "name" : "인프런 강의 신청 바로가기", "link" : "https://docs.google.com/forms/d/e/1FAIpQLScZL2CAKaKZCQ1JgLCu9YxWuJ90tYFcJPEBMBQ215GfuWn2tQ/viewform" }
     ],
     "img" : [
       [460, 4820, 975, 4870, "https://forms.gle/jnAuX9fLikR9gzne7"]
@@ -170,8 +192,8 @@
     ],
     "button" : [
 	  { "name" : "패스트캠퍼스 바로가기", "link" : "http://www.fastcampus.co.kr" },
-      { "name" : "패스트캠퍼스 서비스 사전 신청 (준비중)", "link" : "http://www.google.co.kr" },
-      { "name" : "패스트캠퍼스 온라인 교육 과정<br>한 눈에 보기 (준비중)", "link" : "http://www.google.co.kr" }
+      { "name" : "패스트캠퍼스 서비스 사전 신청", "link" : "https://docs.google.com/forms/d/e/1FAIpQLScVPY220BGJ4iaMeb3AC1_tolJKqG_a-gEi4Tnqa4mHGkqGpQ/viewform" },
+      { "name" : "패스트캠퍼스 온라인 교육 과정<br>한 눈에 보기", "link" : "https://docs.google.com/spreadsheets/d/1X4Zp6KyVEkig8cmYNO5eSU2legsN3NF7pEkqPtSk_I4/edit#gid=817039639" }
     ],
     "img" : [
     ]
@@ -276,7 +298,7 @@
     ],
     "how" : [
       "01. 잔디 팀에서 42 SEOUL 교육생 인증 후 프로모션 코드 받기",
-      "&nbsp;&nbsp;> 재학증명서를 잔디 관리자(support@tosslab.com) 또는 앱 내부 1:1로 송부",
+      "&nbsp;&nbsp;> 소속증명서를 잔디 관리자(support@tosslab.com) 또는 앱 내부 1:1로 송부",
       "02. 잔디 팀 관리자가 해당 팀의 [관리자 메뉴] - [지금 업그레이드 하기] 페이지 내에서 코드 입력"
     ],
     "button" : [
@@ -418,7 +440,7 @@
       "[혜택 개요]",
       "01. 내 용 : 비급여 의료비 할인혜택",
       "02. 대 상 : 42 SEOUL 교육생",
-      "03. 기 간 : 2020년 10월 31일까지",
+      "03. 기 간 : 2021년 2월까지",
       "04. 안 내 : 42 SEOUL 교육생에 한해 특별우대 할인 혜택 적용",
       "&nbsp;&nbsp;&nbsp;&nbsp;- 총 11개 진료과목 안과, 치과, 통증의학과, 피부과, 이비인후과, 모발이식, 성형외과, 한의원, 도수치료, 비뇨기과, 영상의학과 (각 지역별 80여개 제휴병원))",
       "&nbsp;&nbsp;&nbsp;&nbsp;- 병원 이용 시 비급여 항목에 대해 최대 49% 할인 혜택 지원",
@@ -427,16 +449,17 @@
       "&nbsp;&nbsp;&nbsp;&nbsp;- 부산 병원 전담센터 051-710- 7855 / 카카오톡 WSC332"
     ],
     "how" : [
-      "상담 및 예약 시, 반드시 이노베이션아카데미 소속임을 말씀해주셔야 우대기업 대상자로 등록됩니다."
+      "상담 및 예약 시, 반드시 이노베이션아카데미(42 SEOUL) 소속임을 말씀해주셔야 우대기업 대상자로 등록됩니다."
     ],
     "button" : [
-      { "name" : "상세 할인 혜택 바로가기", "link" : "http://www.clplus.net/promotion/intranet/sb/innovationacademy/html/index.html" }
+      { "name" : "할인 페이지 바로가기", "link" : "http://www.clplus.net/promotion/intranet/sb/innovationacademy/html/index.html" },
+      { "name" : "상세 할인 혜택 읽어보기", "link" : "https://drive.google.com/file/d/1tAOlc_ChT_anF8GWXdtrY7pwg9fuchs3/view?usp=sharing" }
     ],
     "img" : [
     ]
   },
   {
-    "ready" : true,
+    "ready" : false,
     "id" : "goto",
     "title" : "GOTO 피트니스",
     "abstract" : "피트니스&골프 멤버십 할인 제공",
@@ -458,7 +481,7 @@
     ]
   },
   {
-    "ready" : true,
+    "ready" : false,
     "id" : "millie",
     "title" : "밀리의서재",
     "abstract" : "구독권 할인 제공",
@@ -479,7 +502,7 @@
     ]
   },
   {
-    "ready" : true,
+    "ready" : false,
     "id" : "bgf",
     "title" : "BGF네트웍스",
     "abstract" : "준비 중",
