@@ -52,17 +52,40 @@
     "abstract" : "전 과목 정규 학기 수강료 15% 할인",
     "text" : [
       "42 SEOUL 교육생은 특별 할인가로 POCU 아카데미의 정규 학기를 들을 수 있습니다.",
-      "모든 과목에 해당되며, 정규학기 수강료 분에 한해 진행됩니다. (동영상 강좌 할인 X)",
+      "모든 과목에 해당되며, 정규학기 수강료 분에 한해 진행됩니다.",
       "할인 기간은 신청일로부터 1년이며, 재신청 시 42 SEOUL 교육생 신분 유지 중이라면 혜택을 받으실 수 있습니다."
     ],
     "how" : [
       "01. POCU 아카데미에 개인 메일로 가입 진행",
       "02. 42 SEOUL 소속증명서 제출하여 인증 진행",
       "",
-      "(사전 공지 후 내부 신청 폼을 통해 인증을 진행할 수도 있습니다.)"
+      "(2021년도 2학기 수강신청은 2021년 5월 2일(일)까지입니다.)"
     ],
     "button" : [
+      { "name" : "POCU 아카데미 소개", "link" : "https://pocu.academy/ko/About" },
       { "name" : "POCU 아카데미 신청방법", "link" : "https://blog.pocu.academy/ko/2020/12/25/42seoul-discount.html" }
+    ],
+    "img" : [
+    ]
+  },
+  {
+    "ready" : true,
+    "id" : "kxcoding",
+    "title" : "KxCoding",
+    "abstract" : "온라인 강좌, 구독 15% 할인, 패키지 20% 할인",
+    "text" : [
+      "iOS 앱 개발을 위한 모든 강의를 만나보세요",
+      "기초를 튼튼하게 하고, 응용력을 향상시키며, 필수 스킬을 익힐 수 있습니다."
+    ],
+    "how" : [
+      "01. 42 SEOUL 교육생 계정(id@student.42seoul.kr)으로 가입 진행",
+      "02. 이메일 인증 또는 소속증명서 제출 시, 할인 자동 적용",
+      "",
+      "다른 할인 혜택과 중복 적용되지 않습니다."
+    ],
+    "button" : [
+      { "name" : "KxCoding 홈페이지", "link" : "https://kxcoding.com" },
+      { "name" : "KxCoding 유튜브 채널", "link" : "https://www.youtube.com/channel/UCtVacbJccQlQL_FP5XSEQMQ" }
     ],
     "img" : [
     ]
@@ -372,16 +395,38 @@
   },
   {
     "ready" : true,
+    "id" : "class101",
+    "title" : "클래스101",
+    "abstract" : "평균 25만원 이상의 클래스를 월 5만 원에 제공",
+    "text" : [
+      "언텍트 시대의 워라밸, 클래스101이 책임지겠습니다",
+      "30개 카테고리, 500개 이상의 다양한 클래스를 만나보세요",
+      "회차별로 3개월 진행되며, 매월 1개 강의를 1개월씩 이용하실 수 있습니다."
+    ],
+    "how" : [
+      "01. 클래스 신청, 등록, 이용기간 확인하기",
+      "02. 모집 기간 내 이미지 하단의 QR 코드로 신청하기",
+      "03. 등록 기간 내 계정 등록 완료하기",
+      "04. 오픈일에 맞춰 수강 시작 :)"
+    ],
+    "button" : [
+      { "name" : "클래스101 바로가기", "link" : "https://class101.net/?utm_source=google_sa_pc&utm_medium=paid&utm_campaign=general&utm_term=%ED%81%B4%EB%9E%98%EC%8A%A4101&gclid=Cj0KCQiArvX_BRCyARIsAKsnTxPStTDH-f7HRGcN_F90gdxnLjKxUXLybThxRgdHsu8VMCcE0mSA0OIaAmZAEALw_wcB" }
+    ],
+    "img" : [
+    ]
+  },
+  {
+    "ready" : true,
     "id" : "once",
     "title" : "원스연습실",
     "abstract" : "원스연습실 레슨비 할인 혜택 제공 (논현/홍대)",
     "text" : [
       "[혜택 개요]",
-      "원스연습실에서 1호점 강남논현점과 2호점 홍대점 개인/단체 레슨 할인 혜택을 제공하고 있습니다! (최대 15%)",
-      "댄스, 보컬, 작곡, 피아노, 기타/베이스, 비트박스/디제이/랩 등 다양한 과목을 경험해 보세요!"
+      "원스연습실에서 1호점 강남논현점과 2호점 홍대점 개인/단체 레슨 할인 혜택을 제공하고 있습니다. (최대 15%)",
+      "댄스, 보컬, 작곡, 피아노, 기타/베이스, 비트박스/디제이/랩 등 다양한 과목을 경험해 보세요."
     ],
     "how" : [
-      "01. 문의는 대표님(02-514-0719)께 연락드려서 42 SEOUL 학생임을 밝히고 상담 및 예약해주시면 됩니다!"
+      "01. 문의는 대표님(02-514-0719)께 연락드려서 42 SEOUL 학생임을 밝히고 상담 및 예약해주시면 됩니다."
     ],
     "button" : [
       { "name" : "원스연습실 바로가기", "link" : "http://oncevocal.itpage.kr/" },
@@ -402,7 +447,8 @@
     "how" : [
       "01. 해당 지점에 42 SEOUL 교육생임을 밝히고 사전 예약 진행",
       "02. 쿠폰 화면을 안내데스크에서 제시",
-      "유의 사항: 부분 시술 (샴푸, 스타일링, 앞머리컷, 다운펌, 부분펌, 뿌리염색 및 리터치, 케어 1회)는 해당 없음"
+      "",
+      "※ 유의 사항: 부분 시술 (샴푸, 스타일링, 앞머리컷, 다운펌, 부분펌, 뿌리염색 및 리터치, 케어 1회)는 해당 없음"
     ],
     "button" : [
       { "name" : "준오헤어 바로가기", "link" : "https://www.junohair.com/" }
@@ -514,6 +560,27 @@
     ],
     "button" : [
       { "name" : "CU Post 바로가기", "link" : "https://www.cupost.co.kr/" }
+    ],
+    "img" : [
+    ]
+  },
+  {
+    "ready" : false,
+    "id" : "pilly",
+    "title" : "필리",
+    "abstract" : "맞춤영양제 정기배송 서비스 20% 할인 제공 (준비 중)",
+    "text" : [
+      "내 몸에 맞는 영양성분을 찾기 위해 건강설문에 참여해 보세요.",
+      "평생 무료로 영양제를 배송해 드립니다.",
+      "또한 꾸준한 섭취관리를 도와 매일매일 섭취 습관을 만들도록 도와드립니다."
+    ],
+    "how" : [
+      "01. 42 SEOUL 교육생 계정(id@student.42seoul.kr)으로 회원가입",
+      "02. 관리자의 승인을 거쳐 할인된 가격으로 서비스 이용"
+    ],
+    "button" : [
+      { "name" : "필리 바로가기", "link" : "https://pilly.kr/?gclid=Cj0KCQiArvX_BRCyARIsAKsnTxMeA8zNRQ9qfPt2DXehUSp-ueg2wB76Fov1edh8KW2-blYd4OFxahQaAuduEALw_wcB"},
+      { "name" : "건강설문하러 가기", "link" : "https://pilly.kr/survey?rtnUrl=%2F%3Fgclid%3DCj0KCQiArvX_BRCyARIsAKsnTxMeA8zNRQ9qfPt2DXehUSp-ueg2wB76Fov1edh8KW2-blYd4OFxahQaAuduEALw_wcB"}
     ],
     "img" : [
     ]
