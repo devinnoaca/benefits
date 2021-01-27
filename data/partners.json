@@ -395,6 +395,28 @@
   },
   {
     "ready" : true,
+    "id" : "pilly",
+    "title" : "필리",
+    "abstract" : "맞춤영양제 정기구독 20% 할인",
+    "text" : [
+      "내 몸에 맞는 영양성분을 찾기 위해 건강설문에 참여해 보세요.",
+      "평생 무료로 본인에게 맞는 영양제를 배송해 드립니다.",
+      "또한 꾸준한 섭취관리를 도와 매일매일 섭취 습관을 만들도록 도와드립니다."
+    ],
+    "how" : [
+      "01. 42 SEOUL 교육생 계정(id@student.42seoul.kr)으로 회원가입",
+      "02. 건강설문을 통해 추천받은 영양제를 장바구니에 담고 결제 시 추천코드 입력",
+      "03. 매달 자동 할인 적용된 가격으로 이용"
+    ],
+    "button" : [
+      { "name" : "필리 바로가기", "link" : "https://pilly.in/t45c3 "},
+      { "name" : "건강설문하러 가기", "link" : "https://pilly.kr/survey?rtnUrl=%2F%3Fgclid%3DCj0KCQiArvX_BRCyARIsAKsnTxMeA8zNRQ9qfPt2DXehUSp-ueg2wB76Fov1edh8KW2-blYd4OFxahQaAuduEALw_wcB"}
+    ],
+    "img" : [
+    ]
+  },
+  {
+    "ready" : true,
     "id" : "once",
     "title" : "원스연습실",
     "abstract" : "원스연습실 레슨비 할인 혜택 제공 (논현/홍대)",
@@ -542,27 +564,6 @@
     "img" : [
     ]
   },
- {
-   "ready" : false,
-   "id" : "pilly",
-   "title" : "필리",
-   "abstract" : "맞춤영양제 정기배송 서비스 20% 할인 제공 (준비 중)",
-   "text" : [
-     "내 몸에 맞는 영양성분을 찾기 위해 건강설문에 참여해 보세요.",
-     "평생 무료로 영양제를 배송해 드립니다.",
-     "또한 꾸준한 섭취관리를 도와 매일매일 섭취 습관을 만들도록 도와드립니다."
-   ],
-   "how" : [
-     "01. 42 SEOUL 교육생 계정(id@student.42seoul.kr)으로 회원가입",
-     "02. 관리자의 승인을 거쳐 할인된 가격으로 서비스 이용"
-   ],
-   "button" : [
-     { "name" : "필리 바로가기", "link" : "https://pilly.kr/?gclid=Cj0KCQiArvX_BRCyARIsAKsnTxMeA8zNRQ9qfPt2DXehUSp-ueg2wB76Fov1edh8KW2-blYd4OFxahQaAuduEALw_wcB"},
-     { "name" : "건강설문하러 가기", "link" : "https://pilly.kr/survey?rtnUrl=%2F%3Fgclid%3DCj0KCQiArvX_BRCyARIsAKsnTxMeA8zNRQ9qfPt2DXehUSp-ueg2wB76Fov1edh8KW2-blYd4OFxahQaAuduEALw_wcB"}
-   ],
-   "img" : [
-   ]
- },
   {
     "ready" : false,
     "id" : "samsung",
