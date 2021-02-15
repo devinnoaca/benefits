@@ -571,10 +571,10 @@
     "abstract" : "삼성전자 공식 복지몰 이용 혜택 제공",
     "text" : [
       "42 SEOUL 교육생을 위한 복지몰에서 삼성전자 인기 상품을 특별한 가격에 만나보세요!",
-      "이용기간은 3월 31일까지입니다."
+      "(이용기간은 3월 31일까지)"
     ],
     "how" : [
-      "공식 복지몰 회원가입 진행 후 이용 가능합니다.",
+      "공식 복지몰 회원가입 진행 후 이용 가능"
     ],
     "button" : [
       { "name" : "42 SEOUL 전용 복지몰 바로가기", "link" : "http://innovation_academy.gmevery.com/mall/m_login.php?ps_out=1#none" }
