@@ -45,29 +45,6 @@
     "img" : [
     ]
   },
-  {
-    "ready" : true,
-    "id" : "POCU",
-    "title" : "POCU 아카데미",
-    "abstract" : "전 과목 정규 학기 수강료 15% 할인",
-    "text" : [
-      "42 SEOUL 교육생은 특별 할인가로 POCU 아카데미의 정규 학기를 들을 수 있습니다.",
-      "모든 과목에 해당되며, 정규학기 수강료 분에 한해 진행됩니다.",
-      "할인 기간은 신청일로부터 1년이며, 재신청 시 42 SEOUL 교육생 신분 유지 중이라면 혜택을 받으실 수 있습니다."
-    ],
-    "how" : [
-      "01. POCU 아카데미에 개인 메일로 가입 진행",
-      "02. 42 SEOUL 소속증명서 제출하여 인증 진행",
-      "",
-      "(2021년도 2학기 수강신청은 2021년 5월 2일(일)까지입니다.)"
-    ],
-    "button" : [
-      { "name" : "POCU 아카데미 소개", "link" : "https://pocu.academy/ko/About" },
-      { "name" : "POCU 아카데미 신청방법", "link" : "https://blog.pocu.academy/ko/2020/12/25/42seoul-discount.html" }
-    ],
-    "img" : [
-    ]
-  },
  {
    "ready" : true,
    "id" : "kxcoding",
@@ -90,27 +67,6 @@
    "img" : [
    ]
  },
-  {
-    "ready" : true,
-    "id" : "comcom",
-    "title" : "커먼컴퓨터",
-    "abstract" : "AI 프로젝트 간편 배포 솔루션 및 기술지원 제공",
-    "text" : [
-      "[혜택01] Ainize 화이트리스트 적용",
-      "[혜택02] 기술지원 제공 (향후 오프라인 오피스 아워 제공)"
-    ],
-    "how" : [
-      "[혜택 01]<br>01. 베타 신청 후 깃헙 ID(이메일 주소)를 담당자에게 제출",
-      "[혜택 02]<br>01. Ainetwork 개발자 슬랙 워크스페이스 (향후 42 SEOUL 교육생 전용 프라이빗 채널)"
-    ],
-    "button" : [
-      { "name" : "커먼컴퓨터 바로가기", "link" : "https://www.comcom.ai" },
-      { "name" : "AI Network 바로가기", "link" : "https://www.ainetwork.ai" },
-      { "name" : "Ainize® 바로가기", "link" : "https://www.ainize.ai" }
-    ],
-    "img" : [
-    ]
-  },
   {
     "ready" : true,
     "id" : "saltlux",
@@ -528,27 +484,6 @@
   },
   {
     "ready" : true,
-    "id" : "millie",
-    "title" : "밀리의서재",
-    "abstract" : "구독권 할인 제공",
-    "text" : [
-      "[혜택 01] 밀리의서재 6개월 구독권 할인(15% 할인) >> 할인가 : 49,900원",
-      "[혜택 02] 밀리의서재 12개월 구독권 할인(25% 할인) >> 할인가 : 89,000원"
-    ],
-    "how" : [
-      "01. 할인혜택 신청폼 작성",
-      "02. 밀리의서재 측으로부터 안내를 받아 결제 후 이용",
-      "&nbsp;&nbsp;> 42 SEOUL 신청자 리스트를 월별로 공유하므로 밀리의서재 측의 안내에 시간이 다소 소요될 수 있습니다."
-    ],
-    "button" : [
-      { "name" : "밀리의서재 바로가기", "link" : "https://www.millie.co.kr/company/company.html?_emk_keyword" },
-      { "name" : "할인혜택 신청하기", "link" : "https://docs.google.com/forms/d/e/1FAIpQLSc7p9ZsobjzkydeUCFwvQcvlJ6mKtA0-eP2LIUZ7xijDhH1Xg/viewform" }
-    ],
-    "img" : [
-    ]
-  },
-  {
-    "ready" : true,
     "id" : "bgf",
     "title" : "BGF네트웍스",
     "abstract" : "CU 우편/택배/퀵 서비스 제공",
@@ -560,24 +495,6 @@
     ],
     "button" : [
       { "name" : "CU Post 바로가기", "link" : "https://www.cupost.co.kr/" }
-    ],
-    "img" : [
-    ]
-  },
-  {
-    "ready" : true,
-    "id" : "samsung",
-    "title" : "삼성전자",
-    "abstract" : "삼성전자 공식 복지몰 이용 혜택 제공",
-    "text" : [
-      "42 SEOUL 교육생을 위한 복지몰에서 삼성전자 인기 상품을 특별한 가격에 만나보세요!",
-      "(이용기간은 3월 31일까지)"
-    ],
-    "how" : [
-      "공식 복지몰 회원가입 진행 후 이용 가능"
-    ],
-    "button" : [
-      { "name" : "42 SEOUL 전용 복지몰 바로가기", "link" : "http://innovation_academy.gmevery.com/mall/m_login.php?ps_out=1#none" }
     ],
     "img" : [
     ]
