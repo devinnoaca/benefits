@@ -108,7 +108,8 @@
     ],
     "button" : [
       { "name" : "인프런 홈페이지 바로가기", "link" : "http://inflearn.com/" },
-	  { "name" : "인프런 강의 신청 바로가기", "link" : "https://docs.google.com/forms/d/e/1FAIpQLScZL2CAKaKZCQ1JgLCu9YxWuJ90tYFcJPEBMBQ215GfuWn2tQ/viewform" }
+      { "name" : "무료 수강 강의 모음 (지속 업데이트)", "link" : "https://www.inflearn.com/tag-curation/tag/679" },
+	    { "name" : "인프런 혜택 신청하기", "link" : "https://docs.google.com/forms/d/e/1FAIpQLScZL2CAKaKZCQ1JgLCu9YxWuJ90tYFcJPEBMBQ215GfuWn2tQ/viewform" }
     ],
     "img" : [
       [460, 4820, 975, 4870, "https://forms.gle/jnAuX9fLikR9gzne7"]
