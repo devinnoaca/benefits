@@ -6,8 +6,8 @@ module.exports = function (jsonfile) {
       partner_grid += `
         <div class="col-lg-4 col-sm-6 mb-5">
           <div class="partner-item">
-            <!--a class="partner-link" data-toggle="modal" id="${i.id}" href="#portfolio-${i.id}"-->
-            <a class="partner-link" data-toggle="modal" id="${i.id}" >
+            <a class="partner-link" data-toggle="modal" id="${i.id}" href="#portfolio-${i.id}">
+            <!--a class="partner-link" data-toggle="modal" id="${i.id}" -->
               <div class="partner-hover">
                 <div class="partner-hover-content"><i class="fas fa-plus fa-2x"></i></div>
               </div>
