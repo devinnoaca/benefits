@@ -1,6 +1,6 @@
 [
   {
-    "ready" : true,
+    "ready" : false,
     "id" : "likelion",
     "title" : "멋쟁이사자처럼",
     "abstract" : "코드라이언 교육 코스 30% 할인",
@@ -19,7 +19,7 @@
     ]
   },
   {
-    "ready" : true,
+    "ready" : false,
     "id" : "goorm",
     "title" : "구름",
     "abstract" : "구름EDU 전용 채널 및 쿠폰, IDE 유료 플랜 제공",
@@ -179,7 +179,7 @@
     ]
   },
   {
-    "ready" : true,
+    "ready" : false,
     "id" : "collabee",
     "title" : "콜라비",
     "abstract" : "올인원 협업툴 콜라비 6개월 크레딧 제공",
@@ -251,24 +251,11 @@
       ["00", "00", "00", "00", "https://www.lenovo.com/kr/ko/accessories-and-monitors/docking/c/docking"],
       ["00", "00", "00", "00", "https://www.lenovo.com/kr/ko/d/deals/quickship?sort=sortBy&currentResultsLayoutType=grid&visibleDatas=facet_Brand%3A%EB%B8%8C%EB%9E%9C%EB%93%9C%3AThinkPad%3Bfacet_leadTime%3A%EB%B0%B0%EC%86%A1%EA%B8%B0%EA%B0%84%3A2%20Business%20Days"],
       ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
-      ["00", "00", "00", "00", "url"],
       ["00", "00", "00", "00", "url"]
     ]
   },
   {
-    "ready" : true,
+    "ready" : false,
     "id" : "jandi",
     "title" : "잔디",
     "abstract" : "협업툴 잔디 프리미엄 플랜 1년 무상 지원",
@@ -414,7 +401,7 @@
     ]
   },
   {
-    "ready" : true,
+    "ready" : false,
     "id" : "kensington",
     "title" : "켄싱턴호텔&리조트",
     "abstract" : "전지점 특가 패키지 제공",
